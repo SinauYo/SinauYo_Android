@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.android.sinauYo">
+    package="com.sinau.android.sinauYo">
 
     <application
         android:allowBackup="true"
@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.example.android.sinauYo.SplashActivity"
+            android:name="com.sinau.android.sinauYo.SplashActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,15 +18,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.android.sinauYo.LoginActivity" />
-        <activity android:name="com.example.android.sinauYo.MenuActivity" />
+        <activity android:name="com.sinau.android.sinauYo.SignupActivity" />
+        <activity android:name="com.sinau.android.sinauYo.MenuActivity" />
         <activity
-            android:name="com.example.android.sinauYo.DetailActivity"
-            android:parentActivityName="com.example.android.sinauYo.MenuActivity">
+            android:name="com.sinau.android.sinauYo.DetailActivity"
+            android:parentActivityName="com.sinau.android.sinauYo.MenuActivity">
 
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.android.sinauYo.MenuActivity" />
+                android:value="com.sinau.android.sinauYo.MenuActivity" />
         </activity>
     </application>
 
