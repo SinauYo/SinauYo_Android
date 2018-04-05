@@ -46,7 +46,7 @@ public class SignupActivity extends AppCompatActivity {
         mDatabase = FirebaseDatabase.getInstance().getReference();
     }
 
-    //Persyaratan login
+    //Persyaratan onDaftar
     public void onDaftar(View view) {
         createAccount(mEmail.getText().toString(),mPassword.getText().toString());
     }

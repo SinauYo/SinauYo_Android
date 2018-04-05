@@ -54,8 +54,8 @@ public class LoginActivity extends AppCompatActivity {
         mDatabase = FirebaseDatabase.getInstance().getReference();
     }
 
-    //Persyaratan login
-    public void login(View view) {
+    //Persyaratan onLogin
+    public void onLogin(View view) {
         signIn(mEmail.getText().toString(),mPassword.getText().toString());
 
     }
@@ -150,7 +150,7 @@ public class LoginActivity extends AppCompatActivity {
 
 
     public void goDaftar(View view) {
-        Intent intent = new Intent(this, MenuActivity.class);
+        Intent intent = new Intent(this, SignupActivity.class);
         startActivity(intent);
     }
 
