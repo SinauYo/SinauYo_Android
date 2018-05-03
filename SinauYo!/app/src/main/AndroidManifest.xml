@@ -24,15 +24,6 @@
             android:name=".LoginActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity
-            android:name=".MenuActivity" />
-        <activity
-            android:name=".DetailActivity"
-            android:parentActivityName=".MenuActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.android.sinauYo.MenuActivity" />
-        </activity>
-        <activity
             android:name=".MainActivity"
             android:label="Home">
 
