@@ -6,5 +6,17 @@
         Cara lain adalah dengan menggunakan pesawat Fresh Water Generator (FWG). Fresh Water Generator (FWG) adalah pesawat pembuat air tawar dengan jalan menguapkan air laut didalam penguap (Evaporator) dan uap air laut tersebut didinginkan dengan cara kondensasi di dalam pesawat Destilasi/kondensor (pengembun), sehingga menghasilkan air kondensasi yang disebut kondensat. Fresh water generator, merupakan salah satu pesawat bantu yang penting di atas kapal. Hal ini di karenakan dengan menggunanaka FWG (Fresh water generator) dapat menghasilkan air tawar yang dapat digunakan untuk minum, memasak, mencuci dan bahkan menjalankan mesin penting lainnya yang menggunakan air tawar sebagai media pendingin.
         Di banyak tempat di dunia terjadi kekurangan persediaan air. Selain di Bumi, sejumlah besar air juga diperkirakan terdapat pada kutub utara dan selatan planet Mars, serta pada bulan-bulan Europa dan Enceladus. Air dapat berwujud padatan (es), cairan (air) dan gas (uap air). Air merupakan satu-satunya zat yang secara alami terdapat di permukaan Bumi dalam ketiga wujudnya tersebut. Pengelolaan sumber daya air yang kurang baik dapat menyebakan kekurangan air, monopolisasi serta privatisasi dan bahkan menyulut konflik. Indonesia telah memiliki undang-undang yang mengatur sumber daya air sejak tahun 2004, yakni Undang Undang nomor 7 tahun 2004 tentang Sumber Daya Air.
     </string>
+    <string name="title_activity_test">test</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="title_home">Home</string>
+    <string name="title_sonline">Sinau Online</string>
+    <string name="title_soffline">Sinau Offline</string>
+    <string name="title_sbook">Sinau Book</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_setting">Setting</string>
+    <string name="title_logout">Logout</string>
+
 </resources>
 

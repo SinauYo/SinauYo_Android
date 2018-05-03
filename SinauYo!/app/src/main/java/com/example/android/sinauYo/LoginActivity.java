@@ -21,7 +21,7 @@ public class LoginActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_login);
 
         inputUsername = findViewById(R.id.inputUsername);
         inputPassword = findViewById(R.id.inputPassword);
@@ -34,7 +34,7 @@ public class LoginActivity extends AppCompatActivity {
                 inputPassword.getText().toString().equals("yo")) {
             //Akan menampilkan toast bila login benar
             Toast.makeText(this, "Login Success!", Toast.LENGTH_SHORT).show();
-            Intent intent = new Intent(this, MenuActivity.class);
+            Intent intent = new Intent(this, MainActivity.class);
             startActivity(intent);
         } else if (inputUsername.getText().toString().equals("") &&
                 inputPassword.getText().toString().equals("")){
