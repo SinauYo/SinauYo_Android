@@ -1,4 +1,4 @@
-package com.sinau.android.sinauYo;
+package com.example.android.sinauYo;
 
 import android.content.Context;
 import android.content.Intent;

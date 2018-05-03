@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient"
-    tools:context="com.sinau.android.sinauYo.SignupActivity">
+    tools:context="com.example.android.sinauYo.LoginActivity">
 
 
     <ImageView
@@ -19,7 +19,7 @@
         android:layout_centerHorizontal="true" />
 
     <EditText
-        android:id="@+id/email"
+        android:id="@+id/inputUsername"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_below="@+id/imageView"
@@ -34,11 +34,11 @@
         android:textSize="16dp" />
 
     <EditText
-        android:id="@+id/password"
+        android:id="@+id/inputPassword"
         android:layout_width="250dp"
         android:layout_height="40dp"
-        android:layout_alignStart="@+id/email"
-        android:layout_below="@+id/email"
+        android:layout_alignStart="@+id/inputUsername"
+        android:layout_below="@+id/inputUsername"
         android:layout_marginTop="22dp"
         android:background="#11000000"
         android:ems="10"
@@ -47,16 +47,27 @@
         android:textColor="#f6f6f6"
         android:inputType="textPassword" />
 
+    <TextView
+        android:id="@+id/lupaAsk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/inputPassword"
+        android:layout_below="@+id/inputPassword"
+        android:text="Lupa password?"
+        android:onClick="onLupa"
+        android:textColor="#b4b4b4"
+        android:textSize="21px" />
+
     <Button
-        android:id="@+id/btnDaftar"
+        android:id="@+id/btnLogin"
         android:layout_width="250dp"
         android:layout_height="100px"
-        android:layout_below="@+id/password"
+        android:layout_below="@+id/inputPassword"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
         android:background="@color/colorPrimary"
-        android:onClick="onDaftar"
-        android:text="Daftar"
+        android:onClick="onLogin"
+        android:text="Masuk"
         android:textColor="@android:color/white"
         android:textSize="18sp" />
 
@@ -66,22 +77,40 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/btnDaftar"
         android:layout_centerHorizontal="true"
-        android:text="Sudah Punya akun?"
+        android:text="Belum punya akun?"
         android:textColor="@color/colorPrimary"
         android:textSize="21px" />
 
     <Button
-        android:id="@+id/btnLogin"
+        android:id="@+id/btnDaftar"
         android:layout_width="220px"
         android:layout_height="55px"
-        android:layout_alignParentBottom="true"
+        android:layout_above="@+id/instagram"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="39dp"
+        android:layout_marginBottom="12dp"
         android:background="#4f4f4f"
-        android:onClick="goLogin"
-        android:text="Login"
+        android:onClick="onDaftar"
+        android:text="Daftar"
         android:textColor="@android:color/white"
         android:textSize="11sp" />
 
+    <ImageView
+        android:id="@+id/instagram"
+        android:layout_width="60px"
+        android:layout_height="60px"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/daftarAsk"
+        android:layout_marginBottom="11dp"
+        android:onClick="goInstagram"
+        app:srcCompat="@drawable/iconinstagram" />
+
+    <ImageView
+        android:id="@+id/facebook"
+        android:layout_width="60px"
+        android:layout_height="60px"
+        android:layout_alignBottom="@+id/instagram"
+        android:layout_alignEnd="@+id/daftarAsk"
+        android:onClick="goFacebook"
+        app:srcCompat="@drawable/iconfacebook" />
 
 </RelativeLayout>

@@ -1,4 +1,4 @@
-package com.sinau.android.sinauYo;
+package com.example.android.sinauYo;
 
 import android.content.res.Configuration;
 import android.support.v7.app.AppCompatActivity;
